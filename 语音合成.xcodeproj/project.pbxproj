@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE7CF9B11FDE875400D6D584 /* QHSpeechSynthesizerQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7CF9AF1FDE875400D6D584 /* QHSpeechSynthesizerQueue.m */; };
+		CEAECBAD1BC256630015EDEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAECBAC1BC256630015EDEB /* main.m */; };
+		CEAECBB01BC256630015EDEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAECBAF1BC256630015EDEB /* AppDelegate.m */; };
+		CEAECBB31BC256630015EDEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAECBB21BC256630015EDEB /* ViewController.m */; };
+		CEAECBB61BC256640015EDEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAECBB41BC256640015EDEB /* Main.storyboard */; };
+		CEAECBB81BC256640015EDEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAECBB71BC256640015EDEB /* Images.xcassets */; };
+		CEAECBBB1BC256640015EDEB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEAECBB91BC256640015EDEB /* LaunchScreen.xib */; };
+		CEAECBC71BC256640015EDEB /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAECBC61BC256640015EDEB /* ____Tests.m */; };
+		CEAECBD11BC256730015EDEB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAECBD01BC256730015EDEB /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEAECBC11BC256640015EDEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEAECB9F1BC256630015EDEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEAECBA61BC256630015EDEB;
+			remoteInfo = "语音合成";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE7CF9AF1FDE875400D6D584 /* QHSpeechSynthesizerQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QHSpeechSynthesizerQueue.m; sourceTree = "<group>"; };
+		CE7CF9B01FDE875400D6D584 /* QHSpeechSynthesizerQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QHSpeechSynthesizerQueue.h; sourceTree = "<group>"; };
+		CEAECBA71BC256630015EDEB /* 语音合成.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "语音合成.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEAECBAB1BC256630015EDEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEAECBAC1BC256630015EDEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEAECBAE1BC256630015EDEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEAECBAF1BC256630015EDEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEAECBB11BC256630015EDEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEAECBB21BC256630015EDEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEAECBB51BC256640015EDEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEAECBB71BC256640015EDEB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CEAECBBA1BC256640015EDEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CEAECBC01BC256640015EDEB /* 语音合成Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "语音合成Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEAECBC51BC256640015EDEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEAECBC61BC256640015EDEB /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		CEAECBD01BC256730015EDEB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEAECBA41BC256630015EDEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAECBD11BC256730015EDEB /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAECBBD1BC256640015EDEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE7CF9B21FDE908700D6D584 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				CE7CF9B01FDE875400D6D584 /* QHSpeechSynthesizerQueue.h */,
+				CE7CF9AF1FDE875400D6D584 /* QHSpeechSynthesizerQueue.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		CEAECB9E1BC256630015EDEB = {
+			isa = PBXGroup;
+			children = (
+				CEAECBD01BC256730015EDEB /* AVFoundation.framework */,
+				CEAECBA91BC256630015EDEB /* 语音合成 */,
+				CEAECBC31BC256640015EDEB /* 语音合成Tests */,
+				CEAECBA81BC256630015EDEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEAECBA81BC256630015EDEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEAECBA71BC256630015EDEB /* 语音合成.app */,
+				CEAECBC01BC256640015EDEB /* 语音合成Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEAECBA91BC256630015EDEB /* 语音合成 */ = {
+			isa = PBXGroup;
+			children = (
+				CEAECBAE1BC256630015EDEB /* AppDelegate.h */,
+				CEAECBAF1BC256630015EDEB /* AppDelegate.m */,
+				CEAECBB11BC256630015EDEB /* ViewController.h */,
+				CEAECBB21BC256630015EDEB /* ViewController.m */,
+				CE7CF9B21FDE908700D6D584 /* Tools */,
+				CEAECBB41BC256640015EDEB /* Main.storyboard */,
+				CEAECBB71BC256640015EDEB /* Images.xcassets */,
+				CEAECBB91BC256640015EDEB /* LaunchScreen.xib */,
+				CEAECBAA1BC256630015EDEB /* Supporting Files */,
+			);
+			path = "语音合成";
+			sourceTree = "<group>";
+		};
+		CEAECBAA1BC256630015EDEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEAECBAB1BC256630015EDEB /* Info.plist */,
+				CEAECBAC1BC256630015EDEB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEAECBC31BC256640015EDEB /* 语音合成Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CEAECBC61BC256640015EDEB /* ____Tests.m */,
+				CEAECBC41BC256640015EDEB /* Supporting Files */,
+			);
+			path = "语音合成Tests";
+			sourceTree = "<group>";
+		};
+		CEAECBC41BC256640015EDEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEAECBC51BC256640015EDEB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEAECBA61BC256630015EDEB /* 语音合成 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEAECBCA1BC256640015EDEB /* Build configuration list for PBXNativeTarget "语音合成" */;
+			buildPhases = (
+				CEAECBA31BC256630015EDEB /* Sources */,
+				CEAECBA41BC256630015EDEB /* Frameworks */,
+				CEAECBA51BC256630015EDEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "语音合成";
+			productName = "语音合成";
+			productReference = CEAECBA71BC256630015EDEB /* 语音合成.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEAECBBF1BC256640015EDEB /* 语音合成Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEAECBCD1BC256640015EDEB /* Build configuration list for PBXNativeTarget "语音合成Tests" */;
+			buildPhases = (
+				CEAECBBC1BC256640015EDEB /* Sources */,
+				CEAECBBD1BC256640015EDEB /* Frameworks */,
+				CEAECBBE1BC256640015EDEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEAECBC21BC256640015EDEB /* PBXTargetDependency */,
+			);
+			name = "语音合成Tests";
+			productName = "语音合成Tests";
+			productReference = CEAECBC01BC256640015EDEB /* 语音合成Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEAECB9F1BC256630015EDEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = sjf;
+				TargetAttributes = {
+					CEAECBA61BC256630015EDEB = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 948PUQ64SN;
+					};
+					CEAECBBF1BC256640015EDEB = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = CEAECBA61BC256630015EDEB;
+					};
+				};
+			};
+			buildConfigurationList = CEAECBA21BC256630015EDEB /* Build configuration list for PBXProject "语音合成" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEAECB9E1BC256630015EDEB;
+			productRefGroup = CEAECBA81BC256630015EDEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEAECBA61BC256630015EDEB /* 语音合成 */,
+				CEAECBBF1BC256640015EDEB /* 语音合成Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEAECBA51BC256630015EDEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAECBB61BC256640015EDEB /* Main.storyboard in Resources */,
+				CEAECBBB1BC256640015EDEB /* LaunchScreen.xib in Resources */,
+				CEAECBB81BC256640015EDEB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAECBBE1BC256640015EDEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEAECBA31BC256630015EDEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAECBB31BC256630015EDEB /* ViewController.m in Sources */,
+				CEAECBB01BC256630015EDEB /* AppDelegate.m in Sources */,
+				CEAECBAD1BC256630015EDEB /* main.m in Sources */,
+				CE7CF9B11FDE875400D6D584 /* QHSpeechSynthesizerQueue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAECBBC1BC256640015EDEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAECBC71BC256640015EDEB /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEAECBC21BC256640015EDEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEAECBA61BC256630015EDEB /* 语音合成 */;
+			targetProxy = CEAECBC11BC256640015EDEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEAECBB41BC256640015EDEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEAECBB51BC256640015EDEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEAECBB91BC256640015EDEB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEAECBBA1BC256640015EDEB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEAECBC81BC256640015EDEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEAECBC91BC256640015EDEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEAECBCB1BC256640015EDEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 948PUQ64SN;
+				INFOPLIST_FILE = "语音合成/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sjf.testsdasda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEAECBCC1BC256640015EDEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 948PUQ64SN;
+				INFOPLIST_FILE = "语音合成/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sjf.testsdasda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEAECBCE1BC256640015EDEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "语音合成Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/语音合成.app/语音合成";
+			};
+			name = Debug;
+		};
+		CEAECBCF1BC256640015EDEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "语音合成Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/语音合成.app/语音合成";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEAECBA21BC256630015EDEB /* Build configuration list for PBXProject "语音合成" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAECBC81BC256640015EDEB /* Debug */,
+				CEAECBC91BC256640015EDEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEAECBCA1BC256640015EDEB /* Build configuration list for PBXNativeTarget "语音合成" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAECBCB1BC256640015EDEB /* Debug */,
+				CEAECBCC1BC256640015EDEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEAECBCD1BC256640015EDEB /* Build configuration list for PBXNativeTarget "语音合成Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEAECBCE1BC256640015EDEB /* Debug */,
+				CEAECBCF1BC256640015EDEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEAECB9F1BC256630015EDEB /* Project object */;
+}
